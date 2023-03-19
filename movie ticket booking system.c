@@ -12,7 +12,7 @@ struct Movie{
 };
 
 void printMenu(){
-    printf("Welcome to Daniels Movie Ticket Booking System\n");
+    printf("Welcome to Danniel's Movie Ticket Booking System\n");
     printf("-------------------------------------\n");
     printf("1. Book ticket\n");
     printf("2. View movie list\n");
@@ -86,7 +86,7 @@ int main(){
                 printMovieList(movies,3);
                 break;
             case 3:
-                printf("Thank you for using Movie Ticket Booking System\n");
+                printf("Thank you for using My Movie Ticket Booking System\n");
                 exit(0);
                 break;
             default:
